@@ -1,0 +1,19 @@
+package FirstStepsInCodingExercise01;
+
+import java.util.Scanner;
+
+public class _03_DepositCalculator {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        double depositAmount = Double.parseDouble(scanner.nextLine());
+        int depositPeriod = Integer.parseInt(scanner.nextLine());
+        double depositPercent = Double.parseDouble(scanner.nextLine());
+        double sum = depositAmount + depositPeriod * ((depositAmount * depositPercent / 100) / 12);
+
+        System.out.println(sum);
+
+    }
+}
