@@ -1,4 +1,4 @@
-package IZPITZADACHI;
+package Exam;
 
 import java.util.Scanner;
 
